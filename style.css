@@ -96,3 +96,25 @@ body.martin {
     transform: scale(1.2);
 }
 
+/* About Section */
+.matt2 {
+    padding: 80px 0;
+    background-color: #f7f2f2;
+}
+
+.roshan6 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.roshan7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 0 5%;
+}
+
