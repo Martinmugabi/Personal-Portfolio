@@ -118,3 +118,15 @@ body.martin {
     padding: 0 5%;
 }
 
+.roshan7 img {
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.roshan7 .about {
+    max-width: 500px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
