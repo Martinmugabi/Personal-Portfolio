@@ -81,3 +81,16 @@ document.addEventListener('DOMContentLoaded', function() {
         return re.test(email);
     }
     
+     
+    // Function to show form messages
+    function showFormMessage(element, message, type) {
+        element.textContent = message;
+        element.style.display = 'block';
+        element.style.backgroundColor = type === 'error' ? '#ffebee' : '#e8f5e9';
+        element.style.color = type === 'error' ? '#c62828' : '#2e7d32';
+        
+        // Hide message after 5 seconds
+        setTimeout(() => {
+            element.style.display = 'none';
+        }, 5000);
+    }
