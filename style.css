@@ -130,3 +130,78 @@ body.martin {
     line-height: 1.8;
 }
 
+
+
+
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0 20px;
+}
+
+.PHP {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 30px;
+}
+
+.did {
+    text-align: center;
+}
+
+.did img {
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.last {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links li {
+    margin-bottom: 10px;
+}
+
+.links a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #007bff;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials i {
+    font-size: 30px;
+    margin: 0 10px;
+    color: #ddd;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.socials a:hover i {
+    transform: scale(1.2);
+    color: #007bff;
+}
+
+.roshan8866 {
+    color: white;
+    margin-bottom: 15px;
+}
+
