@@ -131,7 +131,66 @@ body.martin {
 }
 
 
+/* Projects Section */
+.matt3 {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
 
+#wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    padding: 0 5%;
+}
+
+.me {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.me:hover {
+    transform: translateY(-10px);
+}
+
+.me i {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.me h3 {
+    margin: 15px 0;
+    color: #007bff;
+}
+
+.good {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.fd7 {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+    width: 120px;
+}
+
+.fd7:hover {
+    background-color: #0056b3;
+}
 
 
 /* Footer */
