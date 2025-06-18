@@ -228,6 +228,53 @@ body.martin {
     transform: scale(1.05);
 }
 
+
+
+
+/* Contact Me */
+.matt7 {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.roshan12 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 5%;
+}
+
+.roshan13 {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.roshan13:hover {
+    transform: translateY(-10px);
+}
+
+.roshan13 i {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.roshan13 a {
+    color: inherit;
+}
+
+.roshan14 {
+    margin: 10px 0;
+    color: #333;
+}
+
+
 /* Footer */
 .footer {
     background-color: #333;
