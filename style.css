@@ -333,6 +333,39 @@ body.martin {
     display: none;
 }
 
+    /* Gallery */
+.matt6 {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 5%;
+}
+
+.hats {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.hats:hover {
+    transform: scale(1.05);
+}
+
+.hats img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* Footer */
 .footer {
     background-color: #333;
