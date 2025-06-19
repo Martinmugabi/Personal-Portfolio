@@ -273,7 +273,65 @@ body.martin {
     margin: 10px 0;
     color: #333;
 }
+/* Contact Form */
+.matt5 {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
 
+.form1 {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.coco label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.coco input[type="text"],
+.coco input[type="email"],
+.coco textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.coco textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.toto {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.toto:hover {
+    background-color: #0056b3;
+}
+
+#form-message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
 
 /* Footer */
 .footer {
