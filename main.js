@@ -109,3 +109,16 @@ document.addEventListener('DOMContentLoaded', function() {
             navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
         });
     }
+    // Responsive adjustments
+    window.addEventListener('resize', function() {
+        const navLinks = document.querySelector('.nav-links');
+        if (window.innerWidth > 768) {
+            navLinks.style.display = 'flex';
+        } else {
+            navLinks.style.display = 'none';
+        }
+    });
+    
+
+
+    
