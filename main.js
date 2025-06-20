@@ -118,7 +118,19 @@ document.addEventListener('DOMContentLoaded', function() {
             navLinks.style.display = 'none';
         }
     });
-    
-
+      
+    // Animation on scroll
+    const animateOnScroll = function() {
+        const elements = document.querySelectorAll('.me, .roshan13, .hats');
+        elements.forEach(el => {
+            const elementPosition = el.getBoundingClientRect().top;
+            const screenPosition = window.innerHeight / 1.2;
+            
+            if (elementPosition < screenPosition) {
+                el.style.opacity = '1';
+                el.style.transform = 'translateY(0)';
+            }
+        });
+    };
 
     
