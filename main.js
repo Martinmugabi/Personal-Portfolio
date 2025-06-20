@@ -132,5 +132,17 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     };
-
+     // Set initial state for animation
+    const animateElements = document.querySelectorAll('.me, .roshan13, .hats');
+    animateElements.forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(20px)';
+        el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    });
     
+    // Run once on load
+    animateOnScroll();
+    
+    // Run on scroll
+    window.addEventListener('scroll', animateOnScroll);
+});
